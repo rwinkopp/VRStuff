@@ -1,7 +1,11 @@
 # VRStuff
 Some scripts used for VR projects 
 
-added GunController.cs   a script that allows a gun to be fired with the HTC Vive controller in unity projects 
+ GunController.cs   a script that allows a gun to be fired with the HTC Vive controller in unity projects 
 requires the SteamVR SDK imported in your project. 
+
+CubeRotate.cs   A script to make an object rotate based on vector3 translate.  Has some public variables so you can change it in the unity editor
+
+EnemyHealth.cs   Modded the EnemeyHealth from the survival shooter to react to a hammer object.  When you hit the enemy with the hammer it is stunted or like smooshed by the hammer then it dies, removes the sinking ability so it just lies there then dissapears.   (need an object tagged "Hammer" to work.) 
 
 
