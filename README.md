@@ -9,3 +9,4 @@ CubeRotate.cs   A script to make an object rotate based on vector3 translate.  H
 EnemyHealth.cs   Modded the EnemeyHealth from the survival shooter to react to a hammer object.  When you hit the enemy with the hammer it is stunted or like smooshed by the hammer then it dies, removes the sinking ability so it just lies there then dissapears.   (need an object tagged "Hammer" to work.) 
 
 
+Hammer.cs  handles the hammer has public variables for sound, and a particle affect.  Can easily be modded for a sword or some other hand object.   Also has a public variable for a hand game object to track the controller 
